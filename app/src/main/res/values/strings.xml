@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CRUDPrueba</string>
+    <string name="menu">Menu</string>
+    <string name="alumno">Alumno</string>
+    <string name="notas">Notas</string>
+    <string name="consultas">Consultas</string>
+    <string name="alumno">Alumno</string>
+    <string name="rut">Rut</string>
+    <string name="nombre">Nombre</string>
+    <string name="direccion">Direccion</string>
+    <string name="agregar">agregar</string>
+    <string name="editar">Editar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="notas">Notas</string>
+    <string name="rut">Rut</string>
+    <string name="buscar">buscar</string>
+    <string name="nombre">Nombre</string>
+    <string name="nota">Nota</string>
+    <string name="agregar">agregar</string>
+    <string name="consultas">Consultas</string>
+    <string name="rut">Rut</string>
+    <string name="buscar">buscar</string>
+</resources>

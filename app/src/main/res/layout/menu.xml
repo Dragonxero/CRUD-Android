@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Menu">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="60dp"
+        android:background="#E42441"
+        android:gravity="top"
+        android:text="@string/menu"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        tools:ignore="HardcodedText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        >
+
+        <Button
+            android:id="@+id/alumno"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alumno"
+            android:textSize="24sp"
+            android:onClick="abrirAlumno"/>
+
+        <Button
+            android:id="@+id/notas"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/notas"
+            android:textSize="24sp"
+            android:onClick="abrirIngresoNotas"/>
+
+        <Button
+            android:id="@+id/consultas"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/consultas"
+            android:textSize="24sp"
+            android:onClick="abrirConsultas"/>
+    </LinearLayout>
+
+</LinearLayout>
